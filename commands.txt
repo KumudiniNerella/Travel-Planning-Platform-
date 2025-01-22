@@ -1,0 +1,21 @@
+Installation steps:-
+Install miniconda from below link :
+https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+
+open anaconda prompt and write below commands:
+cd <full-path-to-project-dir>
+conda create -p ./envs python=3.10 -y
+conda activate envs/
+pip install -r req.txt
+python -u country_state_data.py
+python -u destination_data.py
+
+Starting app:
+open anaconda prompt and write below commands:
+cd <full-path-to-project-dir>
+conda activate envs/
+streamlit run app.py
+
+drop the database
+python -u drop_db.py
+
