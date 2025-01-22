@@ -1,12 +1,19 @@
 # Travel-Planning-Platform-
 
 The Travel Planning System is an interactive web application designed to help users organize their travel itineraries, including destinations, bookings, and user details.
+
 Technologies Used
+
 • Frontend: Streamlit
+
 • Backend: Python
+
 • Visualization: Matplotlib
+
 • Authentication: streamlit_login_auth_ui
+
 • Database: MongoDB
+
 
 Create and Login page
 
